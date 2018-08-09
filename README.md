@@ -34,23 +34,6 @@ t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
 
 [Link to datasets](http://yann.lecun.com/exdb/mnist/)
 
-## Results Obtained
-
-Confusion Matrix: 
-
-0   |1   |2   |3   |4   |5   |6   |7   |8   |9
-| --- |:---:|:---:||:---:|:---|:---:|:---:|:---:|:---:|---:|
-0   |439 |  0 |  2 |  2 |  2 |  4  | 0  | 0 |  1 |  1   
-1   |0  | 574 |  8 |  1  | 0  | 1 |  0  | 2 |  5  | 0   
-2   |5  | 0  | 471 |  6  | 5  | 0  | 3  | 4 |  6 |  1   
-3   |0  | 0 |  7  | 489 |  0  | 4  | 2  | 3 |  5 |  1   
-4   |0  | 0 |  1 |  1  | 471  | 0  | 1  | 1 |  1 |  4   
-5   |5  | 1 |  4 |  6 |  6  | 417 |  3 |  1 |  12 |  3   
-6   |5  | 1 |  4 |  2 |  4 |  2 |  479 |  0 |  2  | 0   
-7   |0  | 5 |  4 |  1 |  1 |  1 |  0 |  499 |  1 |  7   
-8   |0 |  0 |  2 |  8 |  2 |  1 |  3 |  3  | 445 |  2   
-9   |2 |  1 |  0 |  2 |  10|   5 |  0 |  13 |  5 |  486   
-
 ## Built With
 
 * [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
