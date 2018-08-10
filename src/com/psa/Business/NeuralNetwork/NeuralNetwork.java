@@ -112,7 +112,7 @@ public class NeuralNetwork {
         }
     }
 
-    private double activationFunction( double x) {
+    public double activationFunction( double x) {
         return 1d / ( 1 + Math.exp(-x));
     }
     
@@ -171,5 +171,36 @@ public class NeuralNetwork {
 
     }
     
+    
+    
+    public Layer getLayer() {
+		return layer;
+	}
+
+	public int[][] ConfusionMatrix(NeuralNetwork net, TrainingUtils set, int printSteps) {
+    	int correct = 0;
+    	int[][] cm = new int[net.getLayer().getOUTPUT_SIZE()][net.getLayer().getOUTPUT_SIZE()];
+        for(int i = 0; i < set.size(); i++) {
+
+            int highest = Utils.indexOfHighestValue(net.calculateResult(set.getInput(i)));
+            int actualHighest = Utils.indexOfHighestValue(set.getOutput(i));
+            
+            cm[actualHighest][highest]++;
+        
+        }
+        
+        return cm;
+        
+    }
+	
+	public void printConfusionMatrix(int[][] cm) {
+		System.out.println("--------- Confusion Matrix ----------");
+		for(int i=0; i<cm.length; i++) {
+			for(int j=0; j<cm[i].length; j++) {
+				System.out.print(cm[i][j]+ " ");
+			}
+			System.out.println();
+		}
+	}
    
 }
