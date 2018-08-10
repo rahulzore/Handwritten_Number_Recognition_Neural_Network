@@ -19,6 +19,10 @@ Eclipse IDE
 
 5. You can save the network to a file and load it after restarting the application
 
+## Running the tests
+
+Unit tests are added in com.psa.Test.NeuralNetwork package. Right click on the file and run as JUnit test.
+
 
 ## Dataset Information
 
