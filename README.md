@@ -25,14 +25,28 @@ Eclipse IDE
 1. Dataset used for training:
 
 train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
+
 train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
 
 2. Dataset used for testing:
 
 t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes) 
+
 t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
 
 [Link to datasets](http://yann.lecun.com/exdb/mnist/)
+
+## Results Obtained
+
+Testing the Neural Network using MNIST test dataset gives the following results:
+
+* Confusion Matrix:
+
+![confus](https://user-images.githubusercontent.com/32002047/43932850-6660b7b4-9c14-11e8-9c70-c961363e80f0.png)
+
+* RESULT: 4770 / 5000  
+
+* Accuracy: 95.40 %
 
 ## Built With
 
