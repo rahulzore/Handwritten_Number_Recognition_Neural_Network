@@ -7,6 +7,10 @@ An artificial Neural Network built from scratch that includes a Perceptron that 
 
 Eclipse IDE
 
+### Application Demo
+
+![](/resources/PSA_NN_Project.gif)
+
 ### Running the application
 
 1. Clone the project to your local directory and Open it in Eclipse from your file system. Run the project as Java Application choosing the Main method present in com.psa.Interface package. 
